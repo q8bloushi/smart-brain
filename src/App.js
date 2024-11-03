@@ -68,7 +68,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({ imageUrl: this.state.input });
-    fetch('https://sleepy-refuge-32199.herokuapp.com/imageurl', {
+    fetch('https://smart-brain-api-teoc.onrender.com/imageurl', {
       method: 'post',
       headers: { 'content-Type': 'application/json' },
       body: JSON.stringify({
@@ -78,7 +78,7 @@ class App extends Component {
     .then(response => response.json())
       .then(response => {
         if(response){
-          fetch('https://sleepy-refuge-32199.herokuapp.com/image', {
+          fetch('https://smart-brain-api-teoc.onrender.com/image', {
             method: 'put',
             headers: { 'content-Type': 'application/json' },
             body: JSON.stringify({
