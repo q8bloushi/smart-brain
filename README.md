@@ -27,7 +27,7 @@ To try Smart Brain locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/smart-brain.git](https://github.com/q8bloushi/smart-brain.git
+   git clon https://github.com/q8bloushi/smart-brain.git
    ```
 2. Navigate to the project directory:
    ```bash
